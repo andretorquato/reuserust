@@ -1,0 +1,33 @@
+# Diretório de build
+target/
+
+# Dependências e cache
+**/Cargo.lock
+**/.cargo/
+
+# Configurações locais de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Binários e artefatos compilados
+*.exe
+*.dll
+*.so
+*.o
+*.dylib
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente ou segredos
+.env
+*.pem
+*.key
